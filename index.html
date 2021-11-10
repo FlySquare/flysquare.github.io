@@ -8,6 +8,7 @@
 
 </head>
 <body>
+
 <!-- partial:index.partial.html -->
 <div class="flex-container">
   <div class="unit">
@@ -22,10 +23,36 @@
       <div class="heart-piece-7"></div>
       <div class="heart-piece-8"></div>
     </div>
-    <p>02/11/2021 13:38</p>
+    <p style="font-size:50px" id="date"></p>
+    <span style="font-size:50px;color:white">02/11/2021 13:38</span>
+
   </div>
 </div>
 <!-- partial -->
-  
+<script>
+  var current = Date.now();
+  var started = 1635860336000;
+  timeDifference(current, started)
+  function timeDifference(date1,date2){
+    var difference = date1 - date2;
+
+    var daysDifference = Math.floor(difference/1000/60/60/24);
+    difference -= daysDifference*1000*60*60*24
+
+    var hoursDifference = Math.floor(difference/1000/60/60);
+    difference -= hoursDifference*1000*60*60
+
+    var minutesDifference = Math.floor(difference/1000/60);
+    difference -= minutesDifference*1000*60
+
+    var secondsDifference = Math.floor(difference/1000);
+
+    document.getElementById('date').innerHTML =
+            daysDifference + ' Gün ' +
+            hoursDifference + ' Saat ' +
+            minutesDifference + ' Dakika ' +
+            secondsDifference + ' Saniye ';
+  }
+</script>
 </body>
 </html>

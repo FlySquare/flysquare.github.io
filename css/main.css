@@ -29,6 +29,7 @@ body {
 }
 .heart {
   position: relative;
+  margin: auto;
   font-size: 0;
   width: 138px;
 }
