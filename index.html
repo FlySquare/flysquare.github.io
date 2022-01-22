@@ -24,7 +24,7 @@
       <div class="heart-piece-8"></div>
     </div>
     <p style="font-size:50px" id="date"></p>
-    <span style="font-size:50px;color:white">02/11/2021 13:38</span>
+    <span style="font-size:50px;color:white">15/07/2022 12:00</span>
 
   </div>
 </div>
@@ -32,7 +32,10 @@
 <script>
   var  started = Date.now();
   var current = 1657896243000;
+  
+  var intervalId = window.setInterval(function(){
   timeDifference(current, started)
+}, 1000);
   function timeDifference(date1,date2){
     var difference = date1 - date2;
 
