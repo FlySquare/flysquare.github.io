@@ -68,55 +68,55 @@ body {
   left: 0px;
   -webkit-animation-delay: 0s;
           animation-delay: 0s;
-  background-color: #ec2d73;
+  background-color: #ff0000;
 }
 .heart-piece-1 {
   left: 16px;
   -webkit-animation-delay: 0.15s;
           animation-delay: 0.15s;
-  background-color: #eb5324;
+  background-color: #ff0000;
 }
 .heart-piece-2 {
   left: 32px;
   -webkit-animation-delay: 0.3s;
           animation-delay: 0.3s;
-  background-color: #fdc800;
+  background-color: #ff0000;
 }
 .heart-piece-3 {
   left: 48px;
   -webkit-animation-delay: 0.45s;
           animation-delay: 0.45s;
-  background-color: #47b264;
+  background-color: #ff0000;
 }
 .heart-piece-4 {
   left: 64px;
   -webkit-animation-delay: 0.6s;
           animation-delay: 0.6s;
-  background-color: #1470bd;
+  background-color: #ff0000;
 }
 .heart-piece-5 {
   left: 80px;
   -webkit-animation-delay: 0.75s;
           animation-delay: 0.75s;
-  background-color: #76469a;
+  background-color: #ff0000;
 }
 .heart-piece-6 {
   left: 96px;
   -webkit-animation-delay: 0.9s;
           animation-delay: 0.9s;
-  background-color: #ec2d73;
+  background-color: #ff0000;
 }
 .heart-piece-7 {
   left: 112px;
   -webkit-animation-delay: 1.05s;
           animation-delay: 1.05s;
-  background-color: #eb5324;
+  background-color: #ff0000;
 }
 .heart-piece-8 {
   left: 128px;
   -webkit-animation-delay: 1.2s;
           animation-delay: 1.2s;
-  background-color: #fdc800;
+  background-color: #ff0000;
 }
 @-webkit-keyframes piece-4 {
   0%, 10%, 90%, 100% {
